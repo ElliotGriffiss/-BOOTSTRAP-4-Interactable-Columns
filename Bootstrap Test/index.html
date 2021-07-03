@@ -4,71 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css", type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Boostrap Test</title>
+    <link rel="stylesheet" href="style.css", type="text/css">
+    <title>Bootstrap Interactable Columns</title>
 </head>
-<body>
 
-<div class="container-fluid background">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12" style="margin: 50px 0px; text-align: center;">
-                <h1>Boostrap Test</h1>
+<body>
+    <div class="container-fluid background">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>BOOTSTRAP 4</h1>
+                    <h2>Interactable Columns</h2>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3">
-                <a href="/">
-                    <div class="column-image" style="background-image: url(819726.png); background-color: red;">
-                        <div class="column-cover">
-                            <div class="table-cell">
-                                <h2>Fire Watch</h2>
-                                <p>Welcome to the game</p>
+            <div class="row">
+                <div class="col-sm-3 mobile-margin">
+                    <a href="/">
+                        <div class="column-image" style="background-color: #5aa7de;">
+                            <div class="column-cover">
+                                <div class="table-cell text-white">
+                                    <h2>STORE ITEM 1</h2>
+                                    <p>Short Description</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-3">
-                <a href="/">
-                    <div class="column-image" style="background-image: url(911732.jpg); background-color: red;">
-                        <div class="column-cover">
-                            <div class="table-cell">
-                                <h2>Fire Watch</h2>
-                                <p>Welcome to the game</p>
+                    </a>
+                </div>
+                <div class="col-sm-3 mobile-margin">
+                    <a href="/">
+                        <div class="column-image" style="background-color: #5aa7de;">
+                            <div class="column-cover">
+                                <div class="table-cell">
+                                    <h2>STORE ITEM 2</h2>
+                                    <p>Short Description</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-3">
-                <a href="/">
-                    <div class="column-image" style="background-image: url(916894.jpg); background-color: red;">
-                        <div class="column-cover">
-                            <div class="table-cell">
-                                <h2>Fire Watch</h2>
-                                <p>Welcome to the game</p>
+                    </a>
+                </div>
+                <div class="col-sm-3 mobile-margin">
+                    <a href="/">
+                        <div class="column-image" style="background-color: #5aa7de;">
+                            <div class="column-cover">
+                                <div class="table-cell">
+                                    <h2>STORE ITEM 3</h2>
+                                    <p>Short Description</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-3">
-                <a href="/">
-                    <div class="column-image" style="background-image: url(921516.png); background-color: red;">
-                        <div class="column-cover">
-                            <div class="table-cell">
-                                <h2>Fire Watch</h2>
-                                <p>Welcome to the game</p>
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="/">
+                        <div class="column-image" style="background-color: #5aa7de;">
+                            <div class="column-cover">
+                                <div class="table-cell">
+                                    <h2>STORE ITEM 4</h2>
+                                    <p>Short Description</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>I made this project to test out a clean way of creating responsive gutters in Bootstrap 4.</p>
+                    <p>The main challenge of this project was creating the gutters without the <i>.column-cover</i> overflowing past the <i>.column-image</i> and overlapping the background color.</p>
+                    <p>This project is set up to work with images rather than colours, if you replace the inline css <i>style="background-color: #5aa7de;"</i> with <i>style="background-image: */your image*"</i> it will still work as intended.</p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
 </body>
+
 </html>
